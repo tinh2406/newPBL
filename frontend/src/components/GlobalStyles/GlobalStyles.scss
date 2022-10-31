@@ -1,0 +1,41 @@
+@import 'normalize.css';
+@import url("https://use.typekit.net/hxd7vrv.css");
+:root {
+    --primary: #4255ff;
+    --black: #000;
+    --text-color: #2E3856;
+
+    //default layout
+    --default-layout-header-height: 64px;
+    --default-layout-width: 100vw;
+    --default-width-container: 1208px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    //font-family: 'Fredoka', sans-serif;
+    //font-family: 'Montserrat', sans-serif;
+    font-family: 'josefin-sans',sans-serif;
+    font-size: 1.6rem;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
+}
+
+button, input, [tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
